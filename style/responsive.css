@@ -1,0 +1,66 @@
+@media (min-width: 350px) and (max-width: 1025px) {
+	/* navbar */
+
+	.logo img {
+		padding-left: 0;
+		opacity: 0.5;
+		height: 70px;
+	}
+
+	.nav-container {
+		position: absolute;
+	}
+
+	/* Intro */
+
+	.intro-container {
+		margin-top: 20vh;
+	}
+
+	.headers > * {
+		font-size: 2em;
+	}
+
+	.intro-text {
+		font-size: 1em;
+	}
+
+	.intro-text p {
+		width: 80%;
+	}
+
+	/* projects */
+
+	.projects {
+		margin: 10vh 0;
+	}
+
+	.projects-container {
+		grid-template-columns: 1fr;
+		row-gap: 10vh;
+	}
+
+	.projects-container p {
+		font-size: 1em;
+	}
+
+	.projects-container img {
+		opacity: 1;
+		height: 150px;
+	}
+
+	/* Footer */
+
+	footer {
+		height: 15vh;
+	}
+
+	.footer-container {
+		gap: 5vw;
+		font-size: 0.7em;
+	}
+
+	.github {
+		font-size: 1.5em;
+	}
+}
