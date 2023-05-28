@@ -17,7 +17,7 @@
 		margin-top: 20vh;
 	}
 
-	.headers > * {
+	.headers>* {
 		font-size: 2em;
 	}
 
@@ -62,5 +62,21 @@
 
 	.github {
 		font-size: 1.5em;
+	}
+}
+
+
+@media (min-width: 1300px) and (max-width: 1919px) {
+
+	.projects-container {
+		column-gap: 1vw;
+	}
+
+	.intro-text p {
+		width: 45%;
+	}
+
+	.projects-container p {
+		font-size: 1.3em;
 	}
 }
